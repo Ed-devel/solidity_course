@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/stateVariables_9.sol": "Name"
+			"contracts/stateVariables_9.sol": "StateVariabl"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/stateVariables_9.sol": {
-			"keccak256": "0x62ce2ede15d62c5a2c21e2cf28984d5e0cb80721f19b2449a2941db0a97211dc",
+			"keccak256": "0x4f3736bdf1713ba31fef3f09fa5114de205c2bfa0625524952f9acfd93eaab05",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09b16f79b74de8ec503c7599343aa1333954b82faca5c5985b12d6b88b645fde",
-				"dweb:/ipfs/QmcssHCSZzrEASZDkiExKHptVYHm9CC3GSedptkXcVmCa4"
+				"bzz-raw://88fb6fdfbae08b46697aeab22c570c8f7663bbc046f0b7c616f9734dcd36d78f",
+				"dweb:/ipfs/QmaEFhmAVwsboXZofWqzUyc2cJvToFFg9smK5KCR417mvW"
 			]
 		}
 	},
