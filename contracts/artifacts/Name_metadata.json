@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/stateVariables_9.sol": "Name"
+			"contracts/pure_13.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/stateVariables_9.sol": {
-			"keccak256": "0x62ce2ede15d62c5a2c21e2cf28984d5e0cb80721f19b2449a2941db0a97211dc",
+		"contracts/pure_13.sol": {
+			"keccak256": "0x00ed9b53ae1b8ccf2eb1078a7858da38d4ed0be1a170f52779291b9280d85897",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09b16f79b74de8ec503c7599343aa1333954b82faca5c5985b12d6b88b645fde",
-				"dweb:/ipfs/QmcssHCSZzrEASZDkiExKHptVYHm9CC3GSedptkXcVmCa4"
+				"bzz-raw://80b55cdb5b8c02c042267ecf75a7388e0691ef5347404c7c8e5ff9787dd277d8",
+				"dweb:/ipfs/Qma4pq7eQCTU8LkEVTmSg9QeqTZZ8KEYHDJKUFaeDeoBeu"
 			]
 		}
 	},
