@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/eventTicket_14.sol": "Name"
+			"contracts/eventTicket_14.sol": "ex"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/eventTicket_14.sol": {
-			"keccak256": "0x897629c4e736fe27615976584dab7d8627d39086e5e87f144000864a8e1a937a",
+			"keccak256": "0x47d3ad3d58846f3db849083a813839faa50d9313c4b6dac3d7b92b962e9b1a65",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6eb3bbe2eef1a583d64bb04c8850594488f6a9f2cf436d12860ba8460f3745c",
-				"dweb:/ipfs/QmUEkCVqUU1z7dugP9LbTLUz2jzM8FhRLAjkPZD6mwWFmh"
+				"bzz-raw://18cd9f2174734c3e472f3647a6abcc7a3c13bc8992262790778b74a524999368",
+				"dweb:/ipfs/QmVeB9y9EU1AtzwhgjbPVaFNicxsgNTXFSrNsodL7Aitp9"
 			]
 		}
 	},
