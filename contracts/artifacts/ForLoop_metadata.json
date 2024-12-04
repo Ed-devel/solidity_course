@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/doWhile_18.sol": "DoWhile"
+			"contracts/forLoop_19.sol": "ForLoop"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/doWhile_18.sol": {
-			"keccak256": "0x8e105a3fa4e9c015eedcf331acad3cef48a8ce0c59a8ccf3061fb656e63cdec2",
+		"contracts/forLoop_19.sol": {
+			"keccak256": "0xf81bf20497757a0940905104ebefc302aa1f361c5e9c1c66976cfb40587332e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba07e16bd68b15b01348c91c48241922ca0ea3fa50d86ae743fa796a1a733ab3",
-				"dweb:/ipfs/QmPA8wJpCgCy9i5gnGzR8oYWGuTpWXKcM2XnZPqBnBT4Jy"
+				"bzz-raw://f51584d75372248144b9716561ccc906bca0270c38b6f515a147f705f9f47d47",
+				"dweb:/ipfs/QmSTUDxrpDzD2KwhSXWdtf1YPYdv8JqnpomqaMbPudVzn1"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/forLoop_19.sol": "Name"
+			"contracts/forLoop_19.sol": "F"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/forLoop_19.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+			"keccak256": "0xecbc26b3f56882f177c65b7eddc4fc89e57dc5140c3c326a3a83241f881b3ff0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://301be7d9675789f92a8bfcc50ae6b7ab34003f863d9a9b79ef2810bace566b41",
+				"dweb:/ipfs/QmWBNAmLQoXRTpkZz5Yo2mg3evDUrnWzSbiPjG6jEPEKaB"
 			]
 		}
 	},

@@ -8,7 +8,6 @@ contract DoWhile{
     uint256[] data;
     uint8 j = 0;
 
-
     /* Nesse caso será usado o do{}while() . Podemos notar que o custo
     de execução por usar Loop é muito alto:
     execution cost	163227 gas
