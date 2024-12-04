@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/doWhile_18.sol": "Name"
+			"contracts/doWhile_18.sol": "DoWhile"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/doWhile_18.sol": {
-			"keccak256": "0x5561dae947ce82fd211219ce41ef94d35ea6c970aeb25b911cac2024cd952db0",
+			"keccak256": "0x5a9f27a5d6acf99245115cf0d39b3dd1b928878aea5d8196cebf7c148757fffe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://46eb90d9a4e82cbddfd9ce0674f01bad24809f3e788e524ac298bc18a20d2b32",
-				"dweb:/ipfs/QmQo1UiTQaQgpfyEHK9xmHfXY67sy43tG6A3P87g2EreLp"
+				"bzz-raw://b5f44589e09b83838dbcf83ea665ac5a3b39648188942d2f00d7d85a810ab9ad",
+				"dweb:/ipfs/QmUXXrVYmm9SvkkAwZpaC4VKRjpafXEDYdPLL8DaT7JzvD"
 			]
 		}
 	},

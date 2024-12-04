@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/doWhile_18.sol": "Name"
+			"contracts/doWhile_18.sol": "DoWhi"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/doWhile_18.sol": {
-			"keccak256": "0x5561dae947ce82fd211219ce41ef94d35ea6c970aeb25b911cac2024cd952db0",
+			"keccak256": "0x8257e4822f534b60e437fa1ef33e160cb8441f813ef19365b1c3932cc3f08301",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://46eb90d9a4e82cbddfd9ce0674f01bad24809f3e788e524ac298bc18a20d2b32",
-				"dweb:/ipfs/QmQo1UiTQaQgpfyEHK9xmHfXY67sy43tG6A3P87g2EreLp"
+				"bzz-raw://8414e8ebd3095a56c712a0efc16ba9f81ba0b5bf9433f8d40edabe6e90fdad34",
+				"dweb:/ipfs/QmQoHwYBKoj2q1DUXrLsg6ZSRc6ZdGV9xgewQ6EKmUzRqH"
 			]
 		}
 	},
