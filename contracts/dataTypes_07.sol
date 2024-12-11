@@ -25,8 +25,8 @@ contract DataTypes {
     /*números negativos são permitidos para tipos int. Como uint,
     diferentes intervalos estão disponíveis para int8.*/
 
-    // int256 ranges from -2 ** 255 - 1 to 2 ** 255 - 1 = 5,789604462e+76 , −5,789604462e+76
-    // int128 ranges from -2 ** 127 - 1 to 2 ** 127 - 1 = 1,701411835+e32 , −1,701411835+e32
+    // int256 ranges from -2 ** 255 to 2 ** 255 - 1 = 5,789604462e+76 , −5,789604462e+76
+    // int128 ranges from -2 ** 127 to 2 ** 127 - 1 = 1,701411835+e32 , −1,701411835+e32
 
     int8 public i8 = -1;
     int public i256 = 456;

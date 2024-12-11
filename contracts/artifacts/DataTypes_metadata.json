@@ -279,7 +279,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/dataTypes.sol": "DataTypes"
+			"contracts/dataTypes_07.sol": "DataTypes"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -293,12 +293,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/dataTypes.sol": {
-			"keccak256": "0x9a67afa767551cdffe4906ea848695d593027aa3ef78c6a1f07252313045ee3d",
+		"contracts/dataTypes_07.sol": {
+			"keccak256": "0xdcd4206e4d9ab2b450bd87329c34efe83e8403a9b7aee47c6e982ce7a6b5c757",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://775f3fd4b2a73199dcb9759932a0a0477bd113c8b9a5d90b5bd64464e60f042f",
-				"dweb:/ipfs/QmSGj3kGFJcfoStw57KcHGCBHrX6apaAgEPABRB7Vq7Gnb"
+				"bzz-raw://f2918fac3d6936f03a4749b175e3d297440d4180770393b176c3706f73a1f769",
+				"dweb:/ipfs/QmXAFgzx4qKMTK462Xc1YrbSmpYEEWEDeVjLMjQxv78jWr"
 			]
 		}
 	},

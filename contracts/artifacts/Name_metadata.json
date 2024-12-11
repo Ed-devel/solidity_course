@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/forLoop_19.sol": "Name"
+			"contracts/teste.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/forLoop_19.sol": {
+		"contracts/teste.sol": {
 			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
 			"license": "MIT",
 			"urls": [

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -14,7 +14,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "checkTotalNFT",
+				"name": "checkNumberOfNFT",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -31,19 +31,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberOfNFT",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -59,9 +46,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/firstApp_6.sol": "NFTCount"
+			"contracts/teste.sol": "Teste"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -73,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/firstApp_6.sol": {
-			"keccak256": "0x354447fa4ee87ee044d5e8117d5970f054ca8f7685185d9ba9c8a22d6a051fc7",
+		"contracts/teste.sol": {
+			"keccak256": "0xe6edc46687aba4d1c2189b776f6ed31f83dad197549a124ee0cc5e1f3d6f09bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07079f83d004718b2b09513eef1a692807dbd5dfa947d65e693dc4f7b2b369c6",
-				"dweb:/ipfs/Qmcofs6rkjmtYbdfEkhNC24VKxvy1CWFzBkkw8rDCVsKw1"
+				"bzz-raw://893bc241ec533668be4c17963fe3dffe36a6f0cd30e5fd09216e794e5a78e11f",
+				"dweb:/ipfs/QmXAFKcL2bEY2LmBXfALta63Gpa6rsKVww6NDcRj1MsuCA"
 			]
 		}
 	},
