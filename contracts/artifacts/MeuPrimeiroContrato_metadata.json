@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/hello.sol": "MeuPrimeiroContrato"
+			"contracts/hello_05.sol": "MeuPrimeiroContrato"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/hello.sol": {
+		"contracts/hello_05.sol": {
 			"keccak256": "0xffcaede1d5ab0ae174a8c26d7cd66bd2ca8108e6205dc9a66f011e4c38d06ecf",
 			"license": "MIT",
 			"urls": [
