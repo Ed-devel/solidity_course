@@ -6,20 +6,31 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "addNFT",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "checkOverFlow",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "checkNumberOfNFT",
+				"name": "getResult",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -27,9 +38,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "deleteNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -46,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/teste.sol": "Teste"
+			"contracts/assert_statement_21.sol": "AssertStatement"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/teste.sol": {
-			"keccak256": "0xe6edc46687aba4d1c2189b776f6ed31f83dad197549a124ee0cc5e1f3d6f09bc",
+		"contracts/assert_statement_21.sol": {
+			"keccak256": "0xd5a59995cafbdeb40cdf79db5d9ee06f7ae4c26ef1490764fb7f22a9fb7a1763",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://893bc241ec533668be4c17963fe3dffe36a6f0cd30e5fd09216e794e5a78e11f",
-				"dweb:/ipfs/QmXAFKcL2bEY2LmBXfALta63Gpa6rsKVww6NDcRj1MsuCA"
+				"bzz-raw://a402783edab739c707653efce2cc4a04f2dff1859654220451bccb48b260b55f",
+				"dweb:/ipfs/QmX2UHoE8te5sdSghEdRXzcDf3EApCGopLssxjsgudjFBK"
 			]
 		}
 	},
