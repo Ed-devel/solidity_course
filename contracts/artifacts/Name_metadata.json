@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/teste.sol": "Name"
+			"contracts/require_20.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/teste.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+		"contracts/require_20.sol": {
+			"keccak256": "0x5b1c757af0a529de512552c9acacb2cd3bf4e38082235979eab1c7b046f178f6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://12123a64329f64e98aa0da509b93d6ffa8f36b5c8405306ae36f1e30e9e28efc",
+				"dweb:/ipfs/QmVTSXDQmt7G7a1tQkznv83VCTdk2yc6VYkyWm7GezjWou"
 			]
 		}
 	},

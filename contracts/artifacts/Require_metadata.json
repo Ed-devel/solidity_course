@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "checkInput",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "odd",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teste",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/require_20.sol": "Require"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/require_20.sol": {
+			"keccak256": "0xd9dd90499a896e69584168352344ed891509835da320c293bda51e78503c6fd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10009b496ed1f53c0a8039051f136a60983506eb361ff7ba6ba0b9910f7f45ef",
+				"dweb:/ipfs/QmTyehRgJJrmUEW5scc7B2oALrHFnUx1DLVYXA5sApXmeJ"
+			]
+		}
+	},
+	"version": 1
+}
