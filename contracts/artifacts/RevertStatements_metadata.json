@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "checkOverFlow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"checkOverFlow(uint256,uint256)": {
+					"notice": "Na função abaixo é usado o 'revert', onde é feita uma verificação com com 'if' e, caso seja atendida, o revert é executado para lhe dar com o erro e o bloco é interrompido. Aparece uma mensagem no log de execução: revert: ' The transaction has been reverted to the initial state. Reason provided by the contract: \"Overflow Exist !\". ' Na maioria dos contratos que já existem em diferentes blockchains, o 'revert' NÃO é usado porque ele é limitado, pois necessário verificar as condições com base na declaração 'if else' . São usadas várias linhas de código desnecessárias. para usar a palavra chave 'revert'. "
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/revert_statement_22.sol": "RevertStatements"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/revert_statement_22.sol": {
+			"keccak256": "0xf0a0f25bc1b64d6d7cb6414296d93ad21ddef3957c39731ac671a72650980bcb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c61d33dfbab23b74a22f38e210ec3e9bf2055a9455a427f7429f2aba7a37908",
+				"dweb:/ipfs/QmSCcNcvjvyMS35n6q6iaRZSa39f417TfgmWHB8C55DLGZ"
+			]
+		}
+	},
+	"version": 1
+}
