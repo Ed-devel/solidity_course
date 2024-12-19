@@ -44,49 +44,49 @@ contract FunctionModifier{
         _;
     }
 
-        /* O modificador abaixo é usado para validar dados. */
-        modifier validateData(address _addr){
-            
-            /* Verifica se o adderess é diferente de zero. Se for
-            isso então será lançada a mensagem de erro.  */
-            require( _addr != address(0), "Not valid adderess !" );
-            _;
+    /* O modificador abaixo é usado para validar dados. */
+    modifier validateData(address _addr){
+        
+        /* Verifica se o adderess é diferente de zero. Se for
+        isso então será lançada a mensagem de erro.  */
+        require( _addr != address(0), "Not valid adderess !" );
+        _;
+    }
+
+    /* A função abaixo irá verificar o proprietário, onde vamos
+    passar o endereço. Essa função irá mudar a propriedade do
+    contrato. Serão chamados os modificadores 'onlyOwner' e
+    'validateData'. Significa que somente o proprietário pode
+    chamar a função. Se as condições forem atendidas, então será
+    definido um novo proprietário. 
+    Podemos usar esses modificadores como uma abstração, Ex:
+    Imagine que temos uma declaração em que seja necessário utiliza-la
+    em várias funções. Então pode-se fazer uma abstração dessa
+    declaração como um modificador. Depois tudo que temos que fazer é 
+    anexar esse odificador em cada função. Isso têm um poder enorme 
+    pois vai nos salvar de vários bugs críticos. Vai evitar escrever
+    vários contratos inteligentes longos com muito código, então vai
+    economizar tempo e resolver vários problemas com bugs. 
+        */
+    function changeOwner( address _newOwner)public onlyOwner validateData (_newOwner){
+        owner = _newOwner;
+
+    }
+
+    /* Esse modificador vai evitar a reentrada de contratos inteligentes,
+    que é um ataque muito famoso nos contratos.  */
+    modifier noReentrancy(){
+        require(!locked, "No reentrancy !");
+        locked = true;
+        _;
+        locked = false;
+    }
+
+    function decrement(uint256 i)public noReentrancy {
+        x -= 1;
+
+        if( i > 1 ){
+            decrement(i-1);
         }
-
-        /* A função abaixo irá verificar o proprietário, onde vamos
-        passar o endereço. Essa função irá mudar a propriedade do
-        contrato. Serão chamados os modificadores 'onlyOwner' e
-        'validateData'. Significa que somente o proprietário pode
-        chamar a função. Se as condições forem atendidas, então será
-        definido um novo proprietário. 
-        Podemos usar esses modificadores como uma abstração, Ex:
-        Imagine que temos uma declaração em que seja necessário utiliza-la
-        em várias funções. Então pode-se fazer uma abstração dessa
-        declaração como um modificador. Depois tudo que temos que fazer é 
-        anexar esse odificador em cada função. Isso têm um poder enorme 
-        pois vai nos salvar de vários bugs críticos. Vai evitar escrever
-        vários contratos inteligentes longos com muito código, então vai
-        economizar tempo e resolver vários problemas com bugs. 
-         */
-        function changeOwner( address _newOwner)public onlyOwner validateData (_newOwner){
-            owner = _newOwner;
-
-        }
-
-        /* Esse modificador vai evitar a reentrada de contratos inteligentes,
-        que é um ataque muito famoso nos contratos.  */
-        modifier noReentrancy(){
-            require(!locked, "No reentrancy !");
-            locked = true;
-            _;
-            locked = false;
-        }
-
-        function decrement(uint256 i)public noReentrancy {
-            x -= 1;
-
-            if( i > 1 ){
-                decrement(i-1);
-            }
-        }
+    }
 }
