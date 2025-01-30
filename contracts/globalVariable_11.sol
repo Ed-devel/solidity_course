@@ -26,15 +26,32 @@ contract GlobalVariables{
         owner = msg.sender; 
         // 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
 
-        MyBlockHash = block.coinbase;  // hash do bloco - Ex: 0x94D76E24F818426ae84aa404140E8D5F60E10E7e
-        difficulty = block.difficulty; // valor da dificuldade - Ex: 71762765929000
-        gasLimit = block.gaslimit;
-        number = block.number;         // Valor do número de bloco - Ex: 83
-        timestamp = block.timestamp;   // carimbo de data e hora - Ex: 1732716112
-        origin = tx.origin;            // origem e honra  têm o mesmo endereço - Ex: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
-        gasprice = tx.gasprice;        // preço Gas - Ex: 2
-        callData = msg.data;           // dados da chamada - Ex: 0x
-        firstFour = msg.sig;           // quatro primeiros números de compra - Ex: 0x00000000
+        // hash do bloco - Ex: 0x94D76E24F818426ae84aa404140E8D5F60E10E7e 
+MyBlockHash = block.coinbase; 
+
+// valor da dificuldade - Ex: 71762765929000 
+difficulty = block.difficulty;
+
+gasLimit = block.gaslimit;
+
+// Valor do número de bloco - Ex: 83  
+number = block.number;        
+
+// carimbo de data e hora - Ex: 1732716112 
+timestamp = block.timestamp;  
+
+// origem e honra  têm o mesmo endereço
+//Ex: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 
+origin = tx.origin;           
+
+// preço Gas - Ex: 2 
+gasprice = tx.gasprice;       
+
+// dados da chamada - Ex: 0x 
+callData = msg.data;          
+
+// quatro primeiros números de compra - Ex: 0x00000000 
+firstFour = msg.sig;
 
         // value = msg.value;
         // nowOn = msg.now;
