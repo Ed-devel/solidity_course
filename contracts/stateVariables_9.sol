@@ -26,7 +26,7 @@ contract StateVariables {
     uint256[] public myNumber;
     
     /* Há várias maneiras de alterar o valor das variáveis de estado.
-    uma delas é através do contrutor */
+    uma delas é através do construtor */
     // constructor(string memory _texto, uint256 _no){
     //     myState = _texto;
     //     myNum = _no;
