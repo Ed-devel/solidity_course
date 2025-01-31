@@ -20,11 +20,11 @@ contract Pure {
         uint256 muNum2 = 50;
 
         uint256 product = muNum1 * muNum1;
-        uint256 total = muNum2 * muNum2;
+        uint256 total = muNum2 + muNum2;
 
         return ( muNum1, muNum2, product, total);
     }
 
-    /* CONCLUSÃO: só usar o 'pure' caso não for acessar variáveis de estado.
+    /* CONCLUSÃO: só usar o 'pure' caso NÃO for acessar variáveis de estado.
     Assim a função se tornará restrita. */
 }

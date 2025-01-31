@@ -18,12 +18,12 @@ contract View{
     chave 'view' para checar o valor das variáveis de estado acima. É possível
     ver os valores na saída da função mas NÃO diretamente  nas variáveis de
     estado pois elas não estão declaradas como 'public' */
-    // function getResults() public view returns(uint256, uint256){
-    //     return (Num1, Num2);
-    // }
+    function getResults() public view returns(uint256, uint256){
+        return (Num1, Num2);
+    }
 
     /* Também podemos fazer calculos internos com uso da palavra chave 'view'. */
-    function getResults() public view returns( uint256 product, uint256 total){
+    function getResultsCalcLocal() public pure returns( uint256 product, uint256 total){
 
         uint256 num1 = 20;
         uint256 num2 = 30;
@@ -46,10 +46,10 @@ contract View{
     }
 
     /* Na função abaixo o valor das variáveis de estado estão sendo atualizados.
-    Porém NÃO é permitido usar a palavra chave 'view' pos essa só é usada para
+    Porém NÃO é permitido usar a palavra chave 'view' pois essa só é usada para
     que a função possa ver (receber) os valores das variáveis de estado e não
     modificá-los. É possível fazer alterações nos valores de variáveis localmente,
-    mão NÃO nas variáveis de estado. */
+    mas NÃO nas variáveis de estado. */
     function getResultsUp() public returns( uint256 product, uint256 total){
 
         Num1 += 5;
