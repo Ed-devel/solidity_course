@@ -1,21 +1,18 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract Require {    
+contract Assert {    
 
-    
-    function verifica8bytes(int256 _num)public pure returns(string memory){
+    bool public result;
 
-        require(_num < 128, "It's not int8");        
-        require(_num >= -128, "It's not int8");
+    function checkOverFlow(uint256 num_1, uint256 num_2)public pure returns(string memory, uint256) {
+        
+        uint256 sum = num_1 + num_2;
 
-        return "is int8";
-    }
-
-    function verificaImpar(uint256 _input)public pure returns(bool){
-
-        require(_input % 2 != 0);
-        return true;
+        if(sum < 0 || sum > 255)
+            revert("It's OverFlow !"); 
+        else 
+            return("It's NOT OverFlow. ",sum );
     }
 }
 

@@ -14,7 +14,7 @@ depois das chamadas de função.
 -- Geralmente é usado por três razões: 
 acesso restrito, validação de entrada e proteção para reentrada.
 
-Com isso podemos validar dados, com isso ajuda a prevenir qualquer
+Com isso podemos validar dados e ajuda a prevenir qualquer
 ataque de reentrada.
 */
 
@@ -45,7 +45,7 @@ contract FunctionModifier{
     }
 
     /* O modificador abaixo é usado para validar dados. */
-    modifier validateData(address _addr){
+    modifier validAddress(address _addr){
         
         /* Verifica se o adderess é diferente de zero. Se for
         isso então será lançada a mensagem de erro.  */
@@ -56,19 +56,19 @@ contract FunctionModifier{
     /* A função abaixo irá verificar o proprietário, onde vamos
     passar o endereço. Essa função irá mudar a propriedade do
     contrato. Serão chamados os modificadores 'onlyOwner' e
-    'validateData'. Significa que somente o proprietário pode
+    'validAddress'. Significa que somente o proprietário pode
     chamar a função. Se as condições forem atendidas, então será
     definido um novo proprietário. 
     Podemos usar esses modificadores como uma abstração, Ex:
     Imagine que temos uma declaração em que seja necessário utiliza-la
     em várias funções. Então pode-se fazer uma abstração dessa
     declaração como um modificador. Depois tudo que temos que fazer é 
-    anexar esse odificador em cada função. Isso têm um poder enorme 
+    anexar esse modificador em cada função. Isso têm um poder enorme 
     pois vai nos salvar de vários bugs críticos. Vai evitar escrever
     vários contratos inteligentes longos com muito código, então vai
     economizar tempo e resolver vários problemas com bugs. 
         */
-    function changeOwner( address _newOwner)public onlyOwner validateData (_newOwner){
+    function changeOwner( address _newOwner)public onlyOwner validAddress (_newOwner){
         owner = _newOwner;
 
     }
