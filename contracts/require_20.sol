@@ -23,8 +23,8 @@ contract Require{
     perceber que o 'required()' é a melhor opção.  */
 
 
-    /* Na função abaixo , caso a condição falhe, e isso ocorre caso digitar
-    um número ímpar no argumento da função, então a transação é recompensada.
+    /* Na função abaixo , caso a condição falhe, isso ocorre caso digitar
+    um número par no argumento da função, então a transação é recompensada.
     */
     function odd(uint256 _input)public pure returns(bool) {
         
