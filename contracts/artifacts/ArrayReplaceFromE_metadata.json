@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/array_replace_from_end_28.sol": "Array"
+			"contracts/array_replace_from_end_28.sol": "ArrayReplaceFromE"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/array_replace_from_end_28.sol": {
-			"keccak256": "0xfcf715220b14bbda947f2966229535cc466b8a53e8696350acc4239d9114c376",
+			"keccak256": "0x5f341ac770e67a8b770fe3b95a8434aed090fb675a2fbd0c572d20b810f38c2e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f7969be3ccbad8544a24cc036514e424224609b476837e0fa6b99ccea5a63db",
-				"dweb:/ipfs/QmTUmbpHucWGXHHyoNSgYZJ7v6Lip2KUSjTEdwgnZ9KNSD"
+				"bzz-raw://fc3c3b03e1e87dc0107180915b04dd4711480ed7a8e621eacc0a6beceb242510",
+				"dweb:/ipfs/QmWw6vV5KQ3XZN7W3dZmVubWH2D6XDPk9NDvMVpghqXmNa"
 			]
 		}
 	},
