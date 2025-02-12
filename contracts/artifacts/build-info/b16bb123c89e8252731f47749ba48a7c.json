@@ -1,0 +1,118 @@
+{
+	"id": "b16bb123c89e8252731f47749ba48a7c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.13",
+	"solcLongVersion": "0.8.13+commit.abaa5c0e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/enumDeclaration_30.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.13;\n\n// Vídeo 30 - Declaração e importação de Enum's\n\n/* Em Solidity é possível criar um contrato separado da interface\ndo Enum. As vezes o contrato é muiro extenso, ou então o Enum pode\nser reaproveitado em outros contratos. Sendo assim é viável criar\no Enum em um único arquivo e o contrato criado em outro separado.\nA partir daí é só importar o Enum no arquivo do contrato. */\n\nenum Status {\n    Pendente,\n    Enviado,\n    Aceito,\n    Rejeitado,\n    Cancelado\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/enumDeclaration_30.sol": {
+				"ast": {
+					"absolutePath": "contracts/enumDeclaration_30.sol",
+					"exportedSymbols": {
+						"Status": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".13"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						},
+						{
+							"canonicalName": "Status",
+							"id": 7,
+							"members": [
+								{
+									"id": 2,
+									"name": "Pendente",
+									"nameLocation": "467:8:0",
+									"nodeType": "EnumValue",
+									"src": "467:8:0"
+								},
+								{
+									"id": 3,
+									"name": "Enviado",
+									"nameLocation": "481:7:0",
+									"nodeType": "EnumValue",
+									"src": "481:7:0"
+								},
+								{
+									"id": 4,
+									"name": "Aceito",
+									"nameLocation": "494:6:0",
+									"nodeType": "EnumValue",
+									"src": "494:6:0"
+								},
+								{
+									"id": 5,
+									"name": "Rejeitado",
+									"nameLocation": "506:9:0",
+									"nodeType": "EnumValue",
+									"src": "506:9:0"
+								},
+								{
+									"id": 6,
+									"name": "Cancelado",
+									"nameLocation": "521:9:0",
+									"nodeType": "EnumValue",
+									"src": "521:9:0"
+								}
+							],
+							"name": "Status",
+							"nameLocation": "454:6:0",
+							"nodeType": "EnumDefinition",
+							"src": "449:83:0"
+						}
+					],
+					"src": "32:501:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
