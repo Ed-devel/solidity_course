@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/enum_29.sol": "Name"
+			"contracts/structImport_31.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/enum_29.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+		"contracts/structDeclaration_31.sol": {
+			"keccak256": "0xf1427fbad35585869048ca464a0744feeba861dc05d2e18b9e4a13f1400005e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://58d7530e5f9c6a846f61f7a70d5253d97cec0a60b93efcfb13c35491f63e950a",
+				"dweb:/ipfs/QmcA7SxFjEmZuGBoE3BXDwPDNRryb1s4wGzqFVc7PsLGHk"
+			]
+		},
+		"contracts/structImport_31.sol": {
+			"keccak256": "0x8b267a7d47015c308844f7b3870c6865052380542c1b11ec6572f6a634028b86",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c634bb9f5bd3c5fcb147c1b7b8c34fc993531f78516d9abf53d789b8531cc0da",
+				"dweb:/ipfs/QmXXMmZBMHpZigHQL7Du3tvyaZ8bGZ5BqvbcUVz5ABMgek"
 			]
 		}
 	},

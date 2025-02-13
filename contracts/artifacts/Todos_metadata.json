@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_concluido",
+						"type": "bool"
+					}
+				],
+				"name": "alternarParaConcluido",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_texto",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "texto",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "concluido",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "texto",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "concluido",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_texto",
+						"type": "string"
+					}
+				],
+				"name": "updateTexto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/structs_31.sol": "Todos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/structs_31.sol": {
+			"keccak256": "0x4ca7fc8ce3dc77faaa8bab6e906d61f6b751ea475659eb22f27551b66ae75b7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://849ac5d38d32033499091151e71ddf66f622cdbb8038edae9165042debd4706e",
+				"dweb:/ipfs/QmY3bHsfttTGFZcXF31yWr8VhBozgXYnzijt3Zq5o1XdJB"
+			]
+		}
+	},
+	"version": 1
+}
