@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/data_locations_33.sol": "Name"
+			"contracts/data_locations_33.sol": "DataLocation"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/data_locations_33.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+			"keccak256": "0x4846752ed95d2c97eb0f54c46e6474771046062f53cd431a43f407928bc9956d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://bdc87ad45da1b1ddc6236eaaef537ae113d510d8ec88169783ca5546677675fa",
+				"dweb:/ipfs/QmSCYQ7wcWdZQdvnQQfevqv99XHZpJjyfkUsoeWy6P8TuF"
 			]
 		}
 	},
