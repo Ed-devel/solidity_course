@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/data_locations_gas_optimization.sol": "DataLoca"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/data_locations_gas_optimization.sol": {
+			"keccak256": "0xf00b88e6c470a71e4b293558fdc07d1b0c61e8bfb31b477b389c4a7cdac8c3f6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9da2c84be16051081e4d21011007e9ca9a8640fb3bab3a82870009cf30162e10",
+				"dweb:/ipfs/QmTzXANMEoZVssVM1hfLvxmExPvGXCZd5nVDc9u2XjMRs3"
+			]
+		}
+	},
+	"version": 1
+}

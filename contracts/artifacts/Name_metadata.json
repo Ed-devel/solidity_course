@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/data_locations_33.sol": "Name"
+			"contracts/data_locations_gas_optimization.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/data_locations_33.sol": {
+		"contracts/data_locations_gas_optimization.sol": {
 			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
 			"license": "MIT",
 			"urls": [

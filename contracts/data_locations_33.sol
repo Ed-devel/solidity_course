@@ -57,7 +57,7 @@ contract DataLocations {
         // faça algo com array da memória
     }
 
-    function hash(uint[] calldata _arr) external {
+    function h(uint[] calldata _arr) external {
         // faça algo com o array calldata (chamada de dados)
     }
 

@@ -8,38 +8,57 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "c",
+						"type": "uint256[]"
 					}
 				],
-				"name": "arr",
+				"name": "xicaraCallData",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "c",
+						"type": "uint256[]"
+					}
+				],
+				"name": "xicaraMemory",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "f",
-				"outputs": [],
+				"name": "xicaraStack",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
-					}
-				],
-				"name": "g",
+				"inputs": [],
+				"name": "xicaraStorage",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -47,19 +66,6 @@
 						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
-					}
-				],
-				"name": "hash",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -77,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/data_locations_33.sol": "DataLocations"
+			"contracts/data_locations_gas_optimization.sol": "DataLocations"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/data_locations_33.sol": {
-			"keccak256": "0x9a495d3603e7bde58556277ba843ae6d9a330c998feaefdc95b6a67d5eeb860d",
+		"contracts/data_locations_gas_optimization.sol": {
+			"keccak256": "0x90fa1fa0191f3cf76dc9d6a0f68cf4cb31ff8597ab688b41e00d92b9fe1b90c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dbb2108e1b99605aab3050dc52760d6a100c9199e4d27c3d1d7f3e6426fd7808",
-				"dweb:/ipfs/Qmdngg9ePqmeMsujruCnhzCfrPoqymTrU3hjYQp7cDhkDW"
+				"bzz-raw://73cf8b0e333ec60b5db3c7fce26e12b4239672bcccae770929e9339579bd6c4d",
+				"dweb:/ipfs/Qmbf36kroBM8N5iC2nkFXRP4Dpe7j4BK6DZARtQ6qvmVQP"
 			]
 		}
 	},
