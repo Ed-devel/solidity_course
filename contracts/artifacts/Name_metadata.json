@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/data_locations_gas_optimization.sol": "Name"
+			"contracts/function_34.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/data_locations_gas_optimization.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+		"contracts/function_34.sol": {
+			"keccak256": "0x1ef0e1af34f5c5eb06154d97c16fba29278a2cd39e44601383c461da2ae17716",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://4a3b18eb77e47bcfa88a8ff7f2df62a3000058cb241c27babcf4289eb4957a58",
+				"dweb:/ipfs/QmV5B7GZ7fcT7kimbLeohiZXTQaKkU5MBNtyWwc9sRykq4"
 			]
 		}
 	},

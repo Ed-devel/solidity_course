@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "chamadaFuncao",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chamadaFuncaoValorChave",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "c",
+						"type": "string"
+					}
+				],
+				"name": "funcaoMuitosInputs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/function_34.sol": "XYZ"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/function_34.sol": {
+			"keccak256": "0x3dc0de5686ec03ce0eefe9aaf13c485bec437b970f9d2ca6a3d3df1c8414dbf6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76912160e8a091e747beb6b6618327bcb7206bb8c318747d529f1e2febc0f8d0",
+				"dweb:/ipfs/QmSf19hpi1BYHA6JDZxFA6iSze8Kt1oPr8p1qz1thUrC8d"
+			]
+		}
+	},
+	"version": 1
+}
