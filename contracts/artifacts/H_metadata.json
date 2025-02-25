@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/inheritance_36.sol": "H"
+			"contracts/inheritance_36_teste.sol": "H"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/inheritance_36.sol": {
+		"contracts/inheritance_36_teste.sol": {
 			"keccak256": "0x5a34f26d8e43db6807ee0663d20f937bd9284b575fc19f78e02bbff86746b6ca",
 			"license": "MIT",
 			"urls": [
