@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/events_35.sol": "Name"
+			"contracts/shadowing_inherited_state_variables_37.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/events_35.sol": {
-			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+		"contracts/shadowing_inherited_state_variables_37.sol": {
+			"keccak256": "0xa6cb137203310ce86c78b789155216f7337af18615ea0e40ebd566dcbb223d68",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
-				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+				"bzz-raw://1d0fa13deb3c5d9d97e11b717f3abf66091b3510fd96cdf41809522d45598490",
+				"dweb:/ipfs/QmWeQ184XE9EocUFaMMsXbGVBNmzECyYEATJEUFp3WQfFA"
 			]
 		}
 	},
