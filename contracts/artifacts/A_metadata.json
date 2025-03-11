@@ -6,29 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getNome",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "message",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "nome",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/shadowing_inherited_state_variables_37.sol": "A"
+			"contracts/calling_parent_contracts_38.sol": "A"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/shadowing_inherited_state_variables_37.sol": {
-			"keccak256": "0x7b6569750fe491ffcee622f5d75b627009db45c2b372630d9a8d041c8995e7b3",
+		"contracts/calling_parent_contracts_38.sol": {
+			"keccak256": "0x2f858e27a3a90cddea9dd0dfe007d7fc4d7962b371069c5850868bb54012cb01",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1b82b619a49b8670c1f478fc1d24f8ae92082a7267ae01152b6042a89db8ef8",
-				"dweb:/ipfs/QmdvaTPE6TRJvskg1CrPHAmyXoJ9Hfq9P2gEteRXksDE98"
+				"bzz-raw://34f548bea2c120a41aa9757e11d373e49f51dff375d004e7839a1cefb4edab91",
+				"dweb:/ipfs/Qmec6DbPLixpmdzFCRLzU4gLb8fSy8QxH1N9CJ5HXAcM1B"
 			]
 		}
 	},
