@@ -7,19 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkNumberOfNFT",
+				"name": "b",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "contract Base",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -27,9 +20,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "deleteNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "testExternalFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -46,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/teste.sol": "Teste"
+			"contracts/visibility_39.sol": "Teste"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/teste.sol": {
-			"keccak256": "0xe6edc46687aba4d1c2189b776f6ed31f83dad197549a124ee0cc5e1f3d6f09bc",
+		"contracts/visibility_39.sol": {
+			"keccak256": "0x244c425ac6a31b00ff30d3655330ce5dd2aac468c898ec0b03b38eebf53c53b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://893bc241ec533668be4c17963fe3dffe36a6f0cd30e5fd09216e794e5a78e11f",
-				"dweb:/ipfs/QmXAFKcL2bEY2LmBXfALta63Gpa6rsKVww6NDcRj1MsuCA"
+				"bzz-raw://6e5ed4aba9800451bf0edb05a7b0945a1935bf6bba6e98ed73914054c1ec8cbf",
+				"dweb:/ipfs/QmTWq6gWBDRnBSL89wyLSFcM29pE23d7rjP9yxExMLZ8ip"
 			]
 		}
 	},
